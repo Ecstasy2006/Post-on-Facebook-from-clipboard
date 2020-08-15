@@ -15,7 +15,7 @@ Also install:
 
 +If you want to automatically press share you can uncomment this line:
 
-#pyautogui.press('tab', presses =7)
+#pyautogui.press('tab', presses =8)
 
 It works well with youtube videos. It is a "bit" buggy with other sites.
 
