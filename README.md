@@ -17,6 +17,4 @@ Also install:
 
 #pyautogui.press('tab', presses =8)
 
-It works well with youtube videos. It is a "bit" buggy with other sites.
-
 Don't forget to set the path variable to the folder where you install/copy the scripts so the batch file works.
