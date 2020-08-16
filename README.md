@@ -13,9 +13,9 @@ Most important thing to modify or it will not work:
 +    share = 'https://www.facebook.com/dialog/share?app_id=11111111111&href='
     
 # Install:
-+  pyperclip, pyautogui, beautifulsoup4, urllib3
-or use the requirments.txt file :D
-+If you want to automatically press share you can uncomment this line:
+Use the requirments.txt file (  pyperclip, pyautogui, beautifulsoup4, urllib3 )
+
++If you want the script to automatically press share you can uncomment this line:
 
 #pyautogui.press('tab', presses =8)
 
