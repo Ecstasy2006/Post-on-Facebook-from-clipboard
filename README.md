@@ -22,3 +22,15 @@ Also I was using python 3.6.1 when I did this code.
 #pyautogui.press('tab', presses =8)
 
 Don't forget to set the path variable to the folder where you install/copy the scripts so the batch file works.
+
+# Refferals
+
+https://github.com/asweigart/
+
+# Links that helped me evolve
+
+https://stackoverflow.com/questions/40716272/how-to-extract-h1-tag-text-with-beautifulsoup?fbclid=IwAR30bt2Ul9Bxlux4m1L6bRl_1ptKxcZphWubXXg1StMUZAI3yyb6D7ycUs8
+https://stackoverflow.com/questions/27835619/urllib-and-ssl-certificate-verify-failed-error?fbclid=IwAR2sbFM4MzYNcR2yDEoMJitQcwSd7Uw-4biX7We44tmb7HT5lhnGVTeI3Ms
+https://www.facebook.com/spurcat/posts/3308709219147563
+https://www.youtube.com/watch?v=dz59GsdvUF8&feature=share&fbclid=IwAR3T82aoMWw82HLL2MM1-q_5HotL1PTeZ5eQhebXlv3iDIvE18KTFlHo4KU
+https://www.datacamp.com/community/tutorials/making-web-crawlers-scrapy-python?fbclid=IwAR30Ht0T27e6ssst-U0QSJGHDHkgj1f57BTZhtZOtCj5-sJS8lbd60l67lE
