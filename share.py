@@ -1,7 +1,6 @@
-import re, string, time, webbrowser 
+import re, string, time, webbrowser, ssl
 import pyperclip, pyautogui
 from bs4 import BeautifulSoup
-import ssl
 from urllib.request import urlopen
 
 share = 'https://www.facebook.com/dialog/share?app_id=11111111111&href='
