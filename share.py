@@ -55,7 +55,7 @@ prefix="#share"
 
 # Append prefix to strings in list                   
 pres_res = [prefix + sub for sub in ConvertStringToList(str1)]     
-pres_res.append('#uberSpurcat #uberNinja #uberBotty')
+pres_res.append('#shareSpurcat #shareNinja #shareBotty')
 
 ConvertListToString = ' '.join(map(str, pres_res)) 
 
