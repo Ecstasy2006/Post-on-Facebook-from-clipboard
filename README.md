@@ -15,6 +15,8 @@ Most important thing to modify or it will not work:
 # Install:
 Use the requirments.txt file (  pyperclip, pyautogui, beautifulsoup4, urllib3 )
 
+Also I was using python 3.6.1 when I did this code.
+
 +If you want the script to automatically press share you can uncomment this line:
 
 #pyautogui.press('tab', presses =8)
