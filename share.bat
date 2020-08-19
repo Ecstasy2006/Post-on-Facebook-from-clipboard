@@ -1,2 +1,2 @@
 @echo off
-@py C:\Users\Nigga\Documents\Python\share.py %* 
+@py C:\<location of share.py>\share.py %* 
