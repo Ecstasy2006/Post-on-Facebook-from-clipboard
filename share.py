@@ -1,21 +1,30 @@
-import re, string, time, webbrowser, ssl
-import pyperclip, pyautogui
-from bs4 import BeautifulSoup
-from urllib.request import urlopen
+import re, string, time, webbrowser 
+import pyperclip, pyautogui ,requests
 
-share = 'https://www.facebook.com/dialog/share?app_id=11111111111&href='
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+import ssl
+
+from www import WierdSite
+
+share = 'https://www.facebook.com/dialog/share?app_id=<Your Facebook ID here (11 digits)>&href='
 
 url = pyperclip.paste()
 
 webbrowser.open(share + url)
 
 context = ssl._create_unverified_context()
-html = urlopen(url, context=context).read().decode("utf-8")
+
 # using beautifulsoup
+
+try:
+   html = urlopen(url, context=context).read().decode("utf-8")   
+except:
+    WierdSite().run()
+
 bs = BeautifulSoup(html, 'html.parser')
-
-str4 = bs.find(["title"])
-
+str4 = bs.find(["title","h1"])
+    
 ConvertListToString = ' '.join(map(str, str4)) 
 
 #remove html code from our scrape (<title>)
@@ -51,26 +60,36 @@ str1 = " ".join([
 ]) 
 
 # The prefix for the hashtags                                       
-prefix="#share"    
+prefix="#uber"    
 
 # Append prefix to strings in list                   
 pres_res = [prefix + sub for sub in ConvertStringToList(str1)]     
-pres_res.append('#shareSpurcat #shareNinja #shareBotty')
+pres_res.append('#uberSpurcat #uberNinja #uberBotty')
 
 ConvertListToString = ' '.join(map(str, pres_res)) 
 
-time.sleep(8)
+if str3 == '':
+    WierdSite().run()
+else:
+    time.sleep(8)
 
-pyautogui.write(str3)
+    pyautogui.write(str3)
 
-pyautogui.press('space')
+    pyautogui.press('space')
 
-pyautogui.press('enter')
+    pyautogui.press('enter')
 
-pyautogui.press('enter')
+    pyautogui.press('enter')
 
-pyautogui.write(ConvertListToString)
+    pyautogui.write(ConvertListToString)
 
-#pyautogui.press('tab', presses = 8)
+    time.sleep(3)
 
-pyautogui.press('enter')
+    pyautogui.press('tab', presses = 8)
+
+    pyautogui.press('enter')
+
+    time.sleep(1)
+
+    pyautogui.hotkey("ctrl","w")
+
