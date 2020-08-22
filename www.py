@@ -2,6 +2,7 @@
 import re, string, time, webbrowser 
 import pyperclip, pyautogui ,requests
 
+#transforms the url into the title and hashtags
 class WierdSite:
     def run(self):
         url = pyperclip.paste()
