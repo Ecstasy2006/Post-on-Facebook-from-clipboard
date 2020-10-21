@@ -48,7 +48,7 @@ class WierdSite:
         ConvertListToString = ' '.join(map(str, pres_res)) 
 
 
-        time.sleep(8)
+        time.sleep(10)
 
         pyautogui.write(str2)
 
