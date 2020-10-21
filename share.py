@@ -71,7 +71,7 @@ ConvertListToString = ' '.join(map(str, pres_res))
 if str3 == '':
     WierdSite().run()
 else:
-    time.sleep(8)
+    time.sleep(9)
 
     pyautogui.write(str3)
 
